@@ -1,0 +1,15 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d7dfe9;
+}
+.item {
+  font-size: 14px;
+}
+.del-image {
+  height: 50px;
+}

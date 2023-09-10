@@ -1,0 +1,81 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.greetings-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.greetings {
+  font-size: 15px;
+  font-weight: 800;
+}
+span {
+  color: blue;
+}
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d7dfe9;
+  border-radius: 18px;
+  padding: 25px;
+}
+.form-head {
+  font-size: 18px;
+  text-align: start;
+}
+.label-input {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: #7e858e;
+  font-size: 14px;
+}
+input {
+  border: 1px solid #7e858e;
+}
+.add-button {
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d7dfe9;
+  border-radius: 18px;
+  padding: 25px;
+}
+.history-head {
+  font-size: 18px;
+  text-align: start;
+}
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d7dfe9;
+}
+.column-head {
+  font-size: 14px;
+  margin: 5px;
+}

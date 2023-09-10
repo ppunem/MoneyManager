@@ -1,0 +1,45 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.title-image-money-green {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+}
+.image {
+  border-radius: 40px;
+  height: 100px;
+}
+.title-money {
+  display: flex;
+  flex-direction: column;
+}
+.container-title {
+  font-size: 12px;
+}
+.container-money {
+  font-size: 20px;
+  font-weight: 800px;
+}
+.title-image-money-blue {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+}
+.title-image-money-lavender {
+  background-color: #cbd5e1;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+}
