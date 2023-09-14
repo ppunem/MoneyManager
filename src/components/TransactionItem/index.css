@@ -6,10 +6,16 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid #d7dfe9;
+  border-radius: 0px;
+  width: 100%;
 }
 .item {
   font-size: 14px;
 }
 .del-image {
-  height: 50px;
+  height: 15px;
+}
+button {
+  background-color: white;
+  border: none;
 }

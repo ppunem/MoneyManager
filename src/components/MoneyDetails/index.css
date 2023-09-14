@@ -2,10 +2,13 @@
 * {
   font-family: 'roboto';
 }
-.container {
+.Container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  width: 80%;
+  border-radius: 15px;
+  border: none;
 }
 .title-image-money-green {
   background-color: #ecfccb;
@@ -13,6 +16,7 @@
   border-radius: 16px;
   padding: 15px;
   display: flex;
+  width: 300px;
 }
 .image {
   border-radius: 40px;
@@ -35,6 +39,7 @@
   border-radius: 16px;
   padding: 15px;
   display: flex;
+  width: 300px;
 }
 .title-image-money-lavender {
   background-color: #cbd5e1;
@@ -42,4 +47,5 @@
   border-radius: 16px;
   padding: 15px;
   display: flex;
+  width: 300px;
 }
